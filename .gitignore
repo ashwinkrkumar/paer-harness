@@ -1,0 +1,11 @@
+# downloaded corpus (reproduce with: python harness/get_data.py)
+data/
+# local environments and caches
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# run logs
+*.log
+# built documents (regenerate with manuscript/build_manuscript.py)
+*.docx

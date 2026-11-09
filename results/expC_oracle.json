@@ -1,0 +1,3278 @@
+[
+  {
+    "config": {
+      "n_tenants": 1,
+      "restricted_frac": 0.1,
+      "k": 5,
+      "corpus_size": 8051,
+      "authorized_queries": 100,
+      "probes": 50,
+      "heldout": 400,
+      "query_mode": "headline",
+      "seed": 20261014
+    },
+    "attacker_authorized_fraction": 0.9029934169668364,
+    "bm25_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.7927583333333333,
+        "mean_missing_pos": 1.2666666666666666,
+        "mean_missing_neg": 0.4325,
+        "short_list_rate_pos": 0.8833333333333333,
+        "short_list_rate_neg": 0.385,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.7485083333333333,
+        "mean_missing_pos": 1.15,
+        "mean_missing_neg": 0.4675,
+        "short_list_rate_pos": 0.8433333333333334,
+        "short_list_rate_neg": 0.3875,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    }
+  },
+  {
+    "config": {
+      "n_tenants": 1,
+      "restricted_frac": 0.3333333333333333,
+      "k": 5,
+      "corpus_size": 8051,
+      "authorized_queries": 100,
+      "probes": 50,
+      "heldout": 400,
+      "query_mode": "headline",
+      "seed": 20261014
+    },
+    "attacker_authorized_fraction": 0.6724630480685629,
+    "bm25_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.6223458333333334,
+        "mean_missing_pos": 2.1733333333333333,
+        "mean_missing_neg": 1.7075,
+        "short_list_rate_pos": 0.9766666666666667,
+        "short_list_rate_neg": 0.89,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5347625,
+        "mean_missing_pos": 0.18333333333333332,
+        "mean_missing_neg": 0.0975,
+        "short_list_rate_pos": 0.13333333333333333,
+        "short_list_rate_neg": 0.0625,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.6213333333333333,
+        "mean_missing_pos": 2.1333333333333333,
+        "mean_missing_neg": 1.675,
+        "short_list_rate_pos": 0.9633333333333334,
+        "short_list_rate_neg": 0.865,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5198916666666666,
+        "mean_missing_pos": 0.17,
+        "mean_missing_neg": 0.105,
+        "short_list_rate_pos": 0.12333333333333334,
+        "short_list_rate_neg": 0.085,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    }
+  },
+  {
+    "config": {
+      "n_tenants": 1,
+      "restricted_frac": 0.5,
+      "k": 5,
+      "corpus_size": 8051,
+      "authorized_queries": 100,
+      "probes": 50,
+      "heldout": 400,
+      "query_mode": "headline",
+      "seed": 20261014
+    },
+    "attacker_authorized_fraction": 0.5008073531238355,
+    "bm25_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5931041666666667,
+        "mean_missing_pos": 2.9,
+        "mean_missing_neg": 2.5025,
+        "short_list_rate_pos": 0.9933333333333333,
+        "short_list_rate_neg": 0.965,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5431458333333333,
+        "mean_missing_pos": 0.82,
+        "mean_missing_neg": 0.65,
+        "short_list_rate_pos": 0.4766666666666667,
+        "short_list_rate_neg": 0.405,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5016666666666667,
+        "mean_missing_pos": 0.0033333333333333335,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0033333333333333335,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5966375,
+        "mean_missing_pos": 2.9433333333333334,
+        "mean_missing_neg": 2.56,
+        "short_list_rate_pos": 0.9866666666666667,
+        "short_list_rate_neg": 0.97,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5619416666666667,
+        "mean_missing_pos": 0.93,
+        "mean_missing_neg": 0.67,
+        "short_list_rate_pos": 0.5133333333333333,
+        "short_list_rate_neg": 0.4025,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    }
+  },
+  {
+    "config": {
+      "n_tenants": 2,
+      "restricted_frac": 0.1,
+      "k": 5,
+      "corpus_size": 8051,
+      "authorized_queries": 200,
+      "probes": 100,
+      "heldout": 400,
+      "query_mode": "headline",
+      "seed": 20261014
+    },
+    "attacker_authorized_fraction": 0.4497577940628493,
+    "bm25_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5537708333333333,
+        "mean_missing_pos": 3.03,
+        "mean_missing_neg": 2.805,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 0.9825,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5231666666666667,
+        "mean_missing_pos": 1.0166666666666666,
+        "mean_missing_neg": 0.9475,
+        "short_list_rate_pos": 0.56,
+        "short_list_rate_neg": 0.53,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.49875,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0025,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0025,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "bm25_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5526166666666666,
+        "mean_missing_pos": 3.033333333333333,
+        "mean_missing_neg": 2.805,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 0.9825,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5315833333333333,
+        "mean_missing_pos": 1.0633333333333332,
+        "mean_missing_neg": 0.9475,
+        "short_list_rate_pos": 0.5833333333333334,
+        "short_list_rate_neg": 0.53,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.49875,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0025,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0025,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5717416666666667,
+        "mean_missing_pos": 3.09,
+        "mean_missing_neg": 2.8475,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 0.99,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5442708333333334,
+        "mean_missing_pos": 1.1633333333333333,
+        "mean_missing_neg": 0.9525,
+        "short_list_rate_pos": 0.59,
+        "short_list_rate_neg": 0.535,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5016666666666667,
+        "mean_missing_pos": 0.0033333333333333335,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0033333333333333335,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.535,
+        "mean_missing_pos": 2.9633333333333334,
+        "mean_missing_neg": 2.8475,
+        "short_list_rate_pos": 0.9933333333333333,
+        "short_list_rate_neg": 0.99,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5087833333333334,
+        "mean_missing_pos": 1.04,
+        "mean_missing_neg": 0.9525,
+        "short_list_rate_pos": 0.52,
+        "short_list_rate_neg": 0.535,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    }
+  },
+  {
+    "config": {
+      "n_tenants": 2,
+      "restricted_frac": 0.3333333333333333,
+      "k": 5,
+      "corpus_size": 8051,
+      "authorized_queries": 200,
+      "probes": 100,
+      "heldout": 400,
+      "query_mode": "headline",
+      "seed": 20261014
+    },
+    "attacker_authorized_fraction": 0.33672835672587254,
+    "bm25_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.533325,
+        "mean_missing_pos": 3.5533333333333332,
+        "mean_missing_neg": 3.4225,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5202958333333333,
+        "mean_missing_pos": 1.97,
+        "mean_missing_neg": 1.8675,
+        "short_list_rate_pos": 0.81,
+        "short_list_rate_neg": 0.8225,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.4946125,
+        "mean_missing_pos": 0.04666666666666667,
+        "mean_missing_neg": 0.0625,
+        "short_list_rate_pos": 0.03666666666666667,
+        "short_list_rate_neg": 0.0475,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "bm25_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.52,
+        "mean_missing_pos": 3.5033333333333334,
+        "mean_missing_neg": 3.4225,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5293791666666666,
+        "mean_missing_pos": 2.0,
+        "mean_missing_neg": 1.8675,
+        "short_list_rate_pos": 0.83,
+        "short_list_rate_neg": 0.8225,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.509675,
+        "mean_missing_pos": 0.08666666666666667,
+        "mean_missing_neg": 0.0625,
+        "short_list_rate_pos": 0.06666666666666667,
+        "short_list_rate_neg": 0.0475,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5498833333333333,
+        "mean_missing_pos": 3.57,
+        "mean_missing_neg": 3.39,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 0.995,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5172333333333333,
+        "mean_missing_pos": 1.9933333333333334,
+        "mean_missing_neg": 1.9275,
+        "short_list_rate_pos": 0.85,
+        "short_list_rate_neg": 0.8275,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5006666666666667,
+        "mean_missing_pos": 0.08,
+        "mean_missing_neg": 0.085,
+        "short_list_rate_pos": 0.056666666666666664,
+        "short_list_rate_neg": 0.055,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5425916666666667,
+        "mean_missing_pos": 3.55,
+        "mean_missing_neg": 3.39,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 0.995,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.4973625,
+        "mean_missing_pos": 1.92,
+        "mean_missing_neg": 1.9275,
+        "short_list_rate_pos": 0.81,
+        "short_list_rate_neg": 0.8275,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.50055,
+        "mean_missing_pos": 0.07333333333333333,
+        "mean_missing_neg": 0.085,
+        "short_list_rate_pos": 0.056666666666666664,
+        "short_list_rate_neg": 0.055,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    }
+  },
+  {
+    "config": {
+      "n_tenants": 2,
+      "restricted_frac": 0.5,
+      "k": 5,
+      "corpus_size": 8051,
+      "authorized_queries": 200,
+      "probes": 100,
+      "heldout": 400,
+      "query_mode": "headline",
+      "seed": 20261014
+    },
+    "attacker_authorized_fraction": 0.2520183828095889,
+    "bm25_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5419625,
+        "mean_missing_pos": 3.96,
+        "mean_missing_neg": 3.8275,
+        "short_list_rate_pos": 0.9966666666666667,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5288916666666666,
+        "mean_missing_pos": 2.77,
+        "mean_missing_neg": 2.64,
+        "short_list_rate_pos": 0.94,
+        "short_list_rate_neg": 0.9325,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5054416666666667,
+        "mean_missing_pos": 0.4,
+        "mean_missing_neg": 0.385,
+        "short_list_rate_pos": 0.25,
+        "short_list_rate_neg": 0.2375,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5004166666666666,
+        "mean_missing_pos": 0.0033333333333333335,
+        "mean_missing_neg": 0.0025,
+        "short_list_rate_pos": 0.0033333333333333335,
+        "short_list_rate_neg": 0.0025,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "bm25_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5135291666666667,
+        "mean_missing_pos": 3.8766666666666665,
+        "mean_missing_neg": 3.8275,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5162208333333334,
+        "mean_missing_pos": 2.7066666666666666,
+        "mean_missing_neg": 2.64,
+        "short_list_rate_pos": 0.93,
+        "short_list_rate_neg": 0.9325,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5079708333333334,
+        "mean_missing_pos": 0.41333333333333333,
+        "mean_missing_neg": 0.385,
+        "short_list_rate_pos": 0.25333333333333335,
+        "short_list_rate_neg": 0.2375,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.49875,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0025,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0025,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5442041666666667,
+        "mean_missing_pos": 3.97,
+        "mean_missing_neg": 3.815,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.53375,
+        "mean_missing_pos": 2.83,
+        "mean_missing_neg": 2.67,
+        "short_list_rate_pos": 0.9533333333333334,
+        "short_list_rate_neg": 0.9275,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5202625,
+        "mean_missing_pos": 0.44,
+        "mean_missing_neg": 0.3575,
+        "short_list_rate_pos": 0.26666666666666666,
+        "short_list_rate_neg": 0.2325,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.49625,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0125,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0075,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5115541666666666,
+        "mean_missing_pos": 3.8566666666666665,
+        "mean_missing_neg": 3.815,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.485825,
+        "mean_missing_pos": 2.6,
+        "mean_missing_neg": 2.67,
+        "short_list_rate_pos": 0.93,
+        "short_list_rate_neg": 0.9275,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5056541666666666,
+        "mean_missing_pos": 0.4266666666666667,
+        "mean_missing_neg": 0.3575,
+        "short_list_rate_pos": 0.23666666666666666,
+        "short_list_rate_neg": 0.2325,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.49790833333333334,
+        "mean_missing_pos": 0.0033333333333333335,
+        "mean_missing_neg": 0.0125,
+        "short_list_rate_pos": 0.0033333333333333335,
+        "short_list_rate_neg": 0.0075,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    }
+  },
+  {
+    "config": {
+      "n_tenants": 3,
+      "restricted_frac": 0.1,
+      "k": 5,
+      "corpus_size": 8051,
+      "authorized_queries": 300,
+      "probes": 150,
+      "heldout": 400,
+      "query_mode": "headline",
+      "seed": 20261014
+    },
+    "attacker_authorized_fraction": 0.30306794187057506,
+    "bm25_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 238,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5705672268907563,
+        "mean_missing_pos": 3.76890756302521,
+        "mean_missing_neg": 3.5225,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 0.9975,
+        "n_pos": 238,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5800892857142858,
+        "mean_missing_pos": 2.3403361344537816,
+        "mean_missing_neg": 1.9675,
+        "short_list_rate_pos": 0.9117647058823529,
+        "short_list_rate_neg": 0.8525,
+        "n_pos": 238,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5389968487394958,
+        "mean_missing_pos": 0.22268907563025211,
+        "mean_missing_neg": 0.1025,
+        "short_list_rate_pos": 0.14285714285714285,
+        "short_list_rate_neg": 0.065,
+        "n_pos": 238,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 238,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 238,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 238,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 238,
+        "n_neg": 400
+      }
+    },
+    "bm25_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5379708333333333,
+        "mean_missing_pos": 3.6633333333333336,
+        "mean_missing_neg": 3.5225,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 0.9975,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5329041666666666,
+        "mean_missing_pos": 2.1333333333333333,
+        "mean_missing_neg": 1.9675,
+        "short_list_rate_pos": 0.8666666666666667,
+        "short_list_rate_neg": 0.8525,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5157458333333333,
+        "mean_missing_pos": 0.14333333333333334,
+        "mean_missing_neg": 0.1025,
+        "short_list_rate_pos": 0.09666666666666666,
+        "short_list_rate_neg": 0.065,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 238,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5643382352941176,
+        "mean_missing_pos": 3.726890756302521,
+        "mean_missing_neg": 3.4775,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 0.995,
+        "n_pos": 238,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5461974789915967,
+        "mean_missing_pos": 2.222689075630252,
+        "mean_missing_neg": 1.9875,
+        "short_list_rate_pos": 0.9159663865546218,
+        "short_list_rate_neg": 0.81,
+        "n_pos": 238,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.49517331932773107,
+        "mean_missing_pos": 0.14705882352941177,
+        "mean_missing_neg": 0.1425,
+        "short_list_rate_pos": 0.08403361344537816,
+        "short_list_rate_neg": 0.095,
+        "n_pos": 238,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 238,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 238,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 238,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 238,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5582375,
+        "mean_missing_pos": 3.6966666666666668,
+        "mean_missing_neg": 3.4775,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 0.995,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.544325,
+        "mean_missing_pos": 2.216666666666667,
+        "mean_missing_neg": 1.9875,
+        "short_list_rate_pos": 0.8866666666666667,
+        "short_list_rate_neg": 0.81,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5037083333333333,
+        "mean_missing_pos": 0.14333333333333334,
+        "mean_missing_neg": 0.1425,
+        "short_list_rate_pos": 0.10333333333333333,
+        "short_list_rate_neg": 0.095,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5016666666666667,
+        "mean_missing_pos": 0.0033333333333333335,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0033333333333333335,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    }
+  },
+  {
+    "config": {
+      "n_tenants": 3,
+      "restricted_frac": 0.3333333333333333,
+      "k": 5,
+      "corpus_size": 8051,
+      "authorized_queries": 300,
+      "probes": 150,
+      "heldout": 400,
+      "query_mode": "headline",
+      "seed": 20261014
+    },
+    "attacker_authorized_fraction": 0.224692584772078,
+    "bm25_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5734416666666666,
+        "mean_missing_pos": 4.1,
+        "mean_missing_neg": 3.8625,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5806833333333333,
+        "mean_missing_pos": 3.006666666666667,
+        "mean_missing_neg": 2.6475,
+        "short_list_rate_pos": 0.98,
+        "short_list_rate_neg": 0.9425,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5534291666666666,
+        "mean_missing_pos": 0.6366666666666667,
+        "mean_missing_neg": 0.46,
+        "short_list_rate_pos": 0.37666666666666665,
+        "short_list_rate_neg": 0.27,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.4970833333333333,
+        "mean_missing_pos": 0.006666666666666667,
+        "mean_missing_neg": 0.0125,
+        "short_list_rate_pos": 0.006666666666666667,
+        "short_list_rate_neg": 0.0125,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "bm25_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5456625,
+        "mean_missing_pos": 4.02,
+        "mean_missing_neg": 3.8625,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.545,
+        "mean_missing_pos": 2.8366666666666664,
+        "mean_missing_neg": 2.6475,
+        "short_list_rate_pos": 0.9566666666666667,
+        "short_list_rate_neg": 0.9425,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5168791666666667,
+        "mean_missing_pos": 0.5166666666666667,
+        "mean_missing_neg": 0.46,
+        "short_list_rate_pos": 0.30666666666666664,
+        "short_list_rate_neg": 0.27,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.4971041666666667,
+        "mean_missing_pos": 0.01,
+        "mean_missing_neg": 0.0125,
+        "short_list_rate_pos": 0.006666666666666667,
+        "short_list_rate_neg": 0.0125,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5339,
+        "mean_missing_pos": 3.98,
+        "mean_missing_neg": 3.8625,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5538875,
+        "mean_missing_pos": 2.94,
+        "mean_missing_neg": 2.6725,
+        "short_list_rate_pos": 0.9433333333333334,
+        "short_list_rate_neg": 0.935,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5291833333333333,
+        "mean_missing_pos": 0.67,
+        "mean_missing_neg": 0.54,
+        "short_list_rate_pos": 0.35,
+        "short_list_rate_neg": 0.2975,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.4983416666666667,
+        "mean_missing_pos": 0.016666666666666666,
+        "mean_missing_neg": 0.015,
+        "short_list_rate_pos": 0.006666666666666667,
+        "short_list_rate_neg": 0.01,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5432,
+        "mean_missing_pos": 4.003333333333333,
+        "mean_missing_neg": 3.8625,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5544708333333334,
+        "mean_missing_pos": 2.94,
+        "mean_missing_neg": 2.6725,
+        "short_list_rate_pos": 0.9566666666666667,
+        "short_list_rate_neg": 0.935,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5173875,
+        "mean_missing_pos": 0.6033333333333334,
+        "mean_missing_neg": 0.54,
+        "short_list_rate_pos": 0.33666666666666667,
+        "short_list_rate_neg": 0.2975,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5000166666666667,
+        "mean_missing_pos": 0.02666666666666667,
+        "mean_missing_neg": 0.015,
+        "short_list_rate_pos": 0.01,
+        "short_list_rate_neg": 0.01,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    }
+  },
+  {
+    "config": {
+      "n_tenants": 3,
+      "restricted_frac": 0.5,
+      "k": 5,
+      "corpus_size": 8051,
+      "authorized_queries": 300,
+      "probes": 150,
+      "heldout": 400,
+      "query_mode": "headline",
+      "seed": 20261014
+    },
+    "attacker_authorized_fraction": 0.16743261706620297,
+    "bm25_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.53835,
+        "mean_missing_pos": 4.256666666666667,
+        "mean_missing_neg": 4.1475,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5603833333333333,
+        "mean_missing_pos": 3.4966666666666666,
+        "mean_missing_neg": 3.2275,
+        "short_list_rate_pos": 0.9933333333333333,
+        "short_list_rate_neg": 0.9775,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5610958333333333,
+        "mean_missing_pos": 1.3966666666666667,
+        "mean_missing_neg": 1.09,
+        "short_list_rate_pos": 0.6266666666666667,
+        "short_list_rate_neg": 0.5525,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5184166666666666,
+        "mean_missing_pos": 0.13333333333333333,
+        "mean_missing_neg": 0.0975,
+        "short_list_rate_pos": 0.1,
+        "short_list_rate_neg": 0.0625,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "bm25_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5418375,
+        "mean_missing_pos": 4.27,
+        "mean_missing_neg": 4.1475,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5333,
+        "mean_missing_pos": 3.37,
+        "mean_missing_neg": 3.2275,
+        "short_list_rate_pos": 0.99,
+        "short_list_rate_neg": 0.9775,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5354041666666667,
+        "mean_missing_pos": 1.2433333333333334,
+        "mean_missing_neg": 1.09,
+        "short_list_rate_pos": 0.6033333333333334,
+        "short_list_rate_neg": 0.5525,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5053833333333333,
+        "mean_missing_pos": 0.10666666666666667,
+        "mean_missing_neg": 0.0975,
+        "short_list_rate_pos": 0.07333333333333333,
+        "short_list_rate_neg": 0.0625,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5016666666666667,
+        "mean_missing_pos": 0.0033333333333333335,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0033333333333333335,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5664291666666667,
+        "mean_missing_pos": 4.34,
+        "mean_missing_neg": 4.1325,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5637791666666667,
+        "mean_missing_pos": 3.5166666666666666,
+        "mean_missing_neg": 3.25,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 0.985,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.523725,
+        "mean_missing_pos": 1.3,
+        "mean_missing_neg": 1.1775,
+        "short_list_rate_pos": 0.5866666666666667,
+        "short_list_rate_neg": 0.5675,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.4974375,
+        "mean_missing_pos": 0.09,
+        "mean_missing_neg": 0.105,
+        "short_list_rate_pos": 0.05,
+        "short_list_rate_neg": 0.055,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5678125,
+        "mean_missing_pos": 4.326666666666667,
+        "mean_missing_neg": 4.1325,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.56155,
+        "mean_missing_pos": 3.5033333333333334,
+        "mean_missing_neg": 3.25,
+        "short_list_rate_pos": 0.99,
+        "short_list_rate_neg": 0.985,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5294,
+        "mean_missing_pos": 1.3166666666666667,
+        "mean_missing_neg": 1.1775,
+        "short_list_rate_pos": 0.62,
+        "short_list_rate_neg": 0.5675,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5053666666666666,
+        "mean_missing_pos": 0.10333333333333333,
+        "mean_missing_neg": 0.105,
+        "short_list_rate_pos": 0.06666666666666667,
+        "short_list_rate_neg": 0.055,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    }
+  },
+  {
+    "config": {
+      "n_tenants": 5,
+      "restricted_frac": 0.1,
+      "k": 5,
+      "corpus_size": 8051,
+      "authorized_queries": 500,
+      "probes": 250,
+      "heldout": 400,
+      "query_mode": "headline",
+      "seed": 20261014
+    },
+    "attacker_authorized_fraction": 0.17811451993541175,
+    "bm25_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 136,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.49347426470588235,
+        "mean_missing_pos": 4.176470588235294,
+        "mean_missing_neg": 4.1825,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 136,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5283455882352941,
+        "mean_missing_pos": 3.4558823529411766,
+        "mean_missing_neg": 3.2925,
+        "short_list_rate_pos": 0.9852941176470589,
+        "short_list_rate_neg": 0.9825,
+        "n_pos": 136,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5280974264705882,
+        "mean_missing_pos": 1.3455882352941178,
+        "mean_missing_neg": 1.21,
+        "short_list_rate_pos": 0.6102941176470589,
+        "short_list_rate_neg": 0.5675,
+        "n_pos": 136,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.49346507352941177,
+        "mean_missing_pos": 0.07352941176470588,
+        "mean_missing_neg": 0.0875,
+        "short_list_rate_pos": 0.04411764705882353,
+        "short_list_rate_neg": 0.0575,
+        "n_pos": 136,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 136,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 136,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 136,
+        "n_neg": 400
+      }
+    },
+    "bm25_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5150541666666667,
+        "mean_missing_pos": 4.23,
+        "mean_missing_neg": 4.1825,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5181,
+        "mean_missing_pos": 3.37,
+        "mean_missing_neg": 3.2925,
+        "short_list_rate_pos": 0.98,
+        "short_list_rate_neg": 0.9825,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5131875,
+        "mean_missing_pos": 1.2366666666666666,
+        "mean_missing_neg": 1.21,
+        "short_list_rate_pos": 0.62,
+        "short_list_rate_neg": 0.5675,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.48639166666666667,
+        "mean_missing_pos": 0.05333333333333334,
+        "mean_missing_neg": 0.0875,
+        "short_list_rate_pos": 0.03,
+        "short_list_rate_neg": 0.0575,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 136,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5400183823529412,
+        "mean_missing_pos": 4.1911764705882355,
+        "mean_missing_neg": 4.0575,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 136,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5398529411764705,
+        "mean_missing_pos": 3.3455882352941178,
+        "mean_missing_neg": 3.14,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 0.975,
+        "n_pos": 136,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5378125,
+        "mean_missing_pos": 1.1911764705882353,
+        "mean_missing_neg": 0.985,
+        "short_list_rate_pos": 0.5588235294117647,
+        "short_list_rate_neg": 0.5075,
+        "n_pos": 136,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.509172794117647,
+        "mean_missing_pos": 0.09558823529411764,
+        "mean_missing_neg": 0.08,
+        "short_list_rate_pos": 0.07352941176470588,
+        "short_list_rate_neg": 0.055,
+        "n_pos": 136,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 136,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 136,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 136,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.542075,
+        "mean_missing_pos": 4.193333333333333,
+        "mean_missing_neg": 4.0575,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5387375,
+        "mean_missing_pos": 3.3066666666666666,
+        "mean_missing_neg": 3.14,
+        "short_list_rate_pos": 0.9766666666666667,
+        "short_list_rate_neg": 0.975,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5442,
+        "mean_missing_pos": 1.1866666666666668,
+        "mean_missing_neg": 0.985,
+        "short_list_rate_pos": 0.5766666666666667,
+        "short_list_rate_neg": 0.5075,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.4979708333333333,
+        "mean_missing_pos": 0.09333333333333334,
+        "mean_missing_neg": 0.08,
+        "short_list_rate_pos": 0.05,
+        "short_list_rate_neg": 0.055,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    }
+  },
+  {
+    "config": {
+      "n_tenants": 5,
+      "restricted_frac": 0.3333333333333333,
+      "k": 5,
+      "corpus_size": 8051,
+      "authorized_queries": 500,
+      "probes": 250,
+      "heldout": 400,
+      "query_mode": "headline",
+      "seed": 20261014
+    },
+    "attacker_authorized_fraction": 0.13228170413613216,
+    "bm25_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5210416666666666,
+        "mean_missing_pos": 4.45,
+        "mean_missing_neg": 4.4,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.519775,
+        "mean_missing_pos": 3.8133333333333335,
+        "mean_missing_neg": 3.71,
+        "short_list_rate_pos": 0.9966666666666667,
+        "short_list_rate_neg": 0.99,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5417708333333333,
+        "mean_missing_pos": 2.1466666666666665,
+        "mean_missing_neg": 1.9325,
+        "short_list_rate_pos": 0.8166666666666667,
+        "short_list_rate_neg": 0.7825,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5166541666666666,
+        "mean_missing_pos": 0.46,
+        "mean_missing_neg": 0.365,
+        "short_list_rate_pos": 0.24333333333333335,
+        "short_list_rate_neg": 0.2175,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5004166666666666,
+        "mean_missing_pos": 0.0033333333333333335,
+        "mean_missing_neg": 0.0025,
+        "short_list_rate_pos": 0.0033333333333333335,
+        "short_list_rate_neg": 0.0025,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "bm25_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.4982875,
+        "mean_missing_pos": 4.403333333333333,
+        "mean_missing_neg": 4.4,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5239708333333334,
+        "mean_missing_pos": 3.82,
+        "mean_missing_neg": 3.71,
+        "short_list_rate_pos": 0.9966666666666667,
+        "short_list_rate_neg": 0.99,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.4873458333333333,
+        "mean_missing_pos": 1.86,
+        "mean_missing_neg": 1.9325,
+        "short_list_rate_pos": 0.7766666666666666,
+        "short_list_rate_neg": 0.7825,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.48635416666666664,
+        "mean_missing_pos": 0.3,
+        "mean_missing_neg": 0.365,
+        "short_list_rate_pos": 0.19333333333333333,
+        "short_list_rate_neg": 0.2175,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.49875,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0025,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0025,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5526291666666666,
+        "mean_missing_pos": 4.463333333333333,
+        "mean_missing_neg": 4.32,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5364833333333333,
+        "mean_missing_pos": 3.8133333333333335,
+        "mean_missing_neg": 3.6475,
+        "short_list_rate_pos": 0.99,
+        "short_list_rate_neg": 0.9925,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.52795,
+        "mean_missing_pos": 1.93,
+        "mean_missing_neg": 1.7675,
+        "short_list_rate_pos": 0.76,
+        "short_list_rate_neg": 0.755,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.501675,
+        "mean_missing_pos": 0.3566666666666667,
+        "mean_missing_neg": 0.355,
+        "short_list_rate_pos": 0.20666666666666667,
+        "short_list_rate_neg": 0.2025,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5326208333333333,
+        "mean_missing_pos": 4.416666666666667,
+        "mean_missing_neg": 4.32,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5219583333333333,
+        "mean_missing_pos": 3.74,
+        "mean_missing_neg": 3.6475,
+        "short_list_rate_pos": 0.9966666666666667,
+        "short_list_rate_neg": 0.9925,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5505458333333333,
+        "mean_missing_pos": 2.026666666666667,
+        "mean_missing_neg": 1.7675,
+        "short_list_rate_pos": 0.7933333333333333,
+        "short_list_rate_neg": 0.755,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.503875,
+        "mean_missing_pos": 0.38,
+        "mean_missing_neg": 0.355,
+        "short_list_rate_pos": 0.21,
+        "short_list_rate_neg": 0.2025,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5033333333333333,
+        "mean_missing_pos": 0.006666666666666667,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.006666666666666667,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    }
+  },
+  {
+    "config": {
+      "n_tenants": 5,
+      "restricted_frac": 0.5,
+      "k": 5,
+      "corpus_size": 8051,
+      "authorized_queries": 500,
+      "probes": 250,
+      "heldout": 400,
+      "query_mode": "headline",
+      "seed": 20261014
+    },
+    "attacker_authorized_fraction": 0.09837287293503913,
+    "bm25_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5141833333333333,
+        "mean_missing_pos": 4.586666666666667,
+        "mean_missing_neg": 4.55,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5303541666666667,
+        "mean_missing_pos": 4.113333333333333,
+        "mean_missing_neg": 4.04,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5378916666666667,
+        "mean_missing_pos": 2.7733333333333334,
+        "mean_missing_neg": 2.5925,
+        "short_list_rate_pos": 0.9133333333333333,
+        "short_list_rate_neg": 0.8875,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5126125,
+        "mean_missing_pos": 1.0,
+        "mean_missing_neg": 0.9275,
+        "short_list_rate_pos": 0.48333333333333334,
+        "short_list_rate_neg": 0.465,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.4928916666666667,
+        "mean_missing_pos": 0.016666666666666666,
+        "mean_missing_neg": 0.04,
+        "short_list_rate_pos": 0.013333333333333334,
+        "short_list_rate_neg": 0.0275,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "bm25_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5137,
+        "mean_missing_pos": 4.573333333333333,
+        "mean_missing_neg": 4.55,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5226583333333333,
+        "mean_missing_pos": 4.1066666666666665,
+        "mean_missing_neg": 4.04,
+        "short_list_rate_pos": 0.9966666666666667,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.4976833333333333,
+        "mean_missing_pos": 2.5866666666666664,
+        "mean_missing_neg": 2.5925,
+        "short_list_rate_pos": 0.9133333333333333,
+        "short_list_rate_neg": 0.8875,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.48744166666666666,
+        "mean_missing_pos": 0.8666666666666667,
+        "mean_missing_neg": 0.9275,
+        "short_list_rate_pos": 0.46,
+        "short_list_rate_neg": 0.465,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.4962916666666667,
+        "mean_missing_pos": 0.03333333333333333,
+        "mean_missing_neg": 0.04,
+        "short_list_rate_pos": 0.02,
+        "short_list_rate_neg": 0.0275,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_restricted": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5226,
+        "mean_missing_pos": 4.566666666666666,
+        "mean_missing_neg": 4.5075,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5227375,
+        "mean_missing_pos": 4.1066666666666665,
+        "mean_missing_neg": 4.025,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 0.9975,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5221541666666667,
+        "mean_missing_pos": 2.6633333333333336,
+        "mean_missing_neg": 2.575,
+        "short_list_rate_pos": 0.9033333333333333,
+        "short_list_rate_neg": 0.925,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.5032833333333333,
+        "mean_missing_pos": 1.01,
+        "mean_missing_neg": 0.98,
+        "short_list_rate_pos": 0.47,
+        "short_list_rate_neg": 0.48,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.50455,
+        "mean_missing_pos": 0.02666666666666667,
+        "mean_missing_neg": 0.02,
+        "short_list_rate_pos": 0.02666666666666667,
+        "short_list_rate_neg": 0.0175,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    },
+    "dense_oracle_cross_tenant": {
+      "unfiltered": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_topk": {
+        "auc": 0.5095208333333333,
+        "mean_missing_pos": 4.546666666666667,
+        "mean_missing_neg": 4.5075,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 1.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x2": {
+        "auc": 0.5015708333333333,
+        "mean_missing_pos": 4.043333333333333,
+        "mean_missing_neg": 4.025,
+        "short_list_rate_pos": 1.0,
+        "short_list_rate_neg": 0.9975,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x5": {
+        "auc": 0.5378708333333333,
+        "mean_missing_pos": 2.75,
+        "mean_missing_neg": 2.575,
+        "short_list_rate_pos": 0.9266666666666666,
+        "short_list_rate_neg": 0.925,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x10": {
+        "auc": 0.487125,
+        "mean_missing_pos": 0.94,
+        "mean_missing_neg": 0.98,
+        "short_list_rate_pos": 0.44666666666666666,
+        "short_list_rate_neg": 0.48,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x20": {
+        "auc": 0.5029833333333333,
+        "mean_missing_pos": 0.04,
+        "mean_missing_neg": 0.02,
+        "short_list_rate_pos": 0.023333333333333334,
+        "short_list_rate_neg": 0.0175,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "postfilter_x50": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      },
+      "prefilter": {
+        "auc": 0.5,
+        "mean_missing_pos": 0.0,
+        "mean_missing_neg": 0.0,
+        "short_list_rate_pos": 0.0,
+        "short_list_rate_neg": 0.0,
+        "n_pos": 300,
+        "n_neg": 400
+      }
+    }
+  }
+]

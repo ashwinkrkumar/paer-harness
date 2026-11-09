@@ -1,0 +1,153 @@
+{
+  "seed": 20261014,
+  "n_docs": 270,
+  "n_authorized": 900,
+  "n_probes": 90,
+  "top_k": 2,
+  "designs": {
+    "unfiltered": {
+      "authorized": {
+        "queries": 900,
+        "unauthorized_context_rate": 0.6666666666666666,
+        "query_exposure_rate": 1.0,
+        "candidate_unauthorized_rate": 0.6666666666666666,
+        "target_recall": 0.6666666666666666,
+        "mean_context_docs": 2.0,
+        "provenance_fidelity": 0.33333333333333337,
+        "e4_failures": 0,
+        "canary_echo_leak_rate": 1.0,
+        "canary_leak_rate_after_output_gate": 0.0
+      },
+      "probes": {
+        "queries": 90,
+        "unauthorized_context_rate": 0.6666666666666666,
+        "query_exposure_rate": 1.0,
+        "candidate_unauthorized_rate": 0.6666666666666666,
+        "target_recall": 0.0,
+        "mean_context_docs": 2.0,
+        "provenance_fidelity": 0.33333333333333337,
+        "e4_failures": 0,
+        "foreign_target_reached_rate": 0.6333333333333333
+      }
+    },
+    "postfilter_topk": {
+      "authorized": {
+        "queries": 900,
+        "unauthorized_context_rate": 0.0,
+        "query_exposure_rate": 0.0,
+        "candidate_unauthorized_rate": 0.6666666666666666,
+        "target_recall": 0.6666666666666666,
+        "mean_context_docs": 0.6666666666666666,
+        "provenance_fidelity": 1.0,
+        "e4_failures": 0,
+        "canary_echo_leak_rate": 0.0,
+        "canary_leak_rate_after_output_gate": 0.0
+      },
+      "probes": {
+        "queries": 90,
+        "unauthorized_context_rate": 0.0,
+        "query_exposure_rate": 0.0,
+        "candidate_unauthorized_rate": 0.6666666666666666,
+        "target_recall": 0.0,
+        "mean_context_docs": 0.6666666666666666,
+        "provenance_fidelity": 1.0,
+        "e4_failures": 0,
+        "foreign_target_reached_rate": 0.0
+      }
+    },
+    "postfilter_overfetch5": {
+      "authorized": {
+        "queries": 900,
+        "unauthorized_context_rate": 0.0,
+        "query_exposure_rate": 0.0,
+        "candidate_unauthorized_rate": 0.7144444444444444,
+        "target_recall": 1.0,
+        "mean_context_docs": 2.0,
+        "provenance_fidelity": 1.0,
+        "e4_failures": 0,
+        "canary_echo_leak_rate": 0.0,
+        "canary_leak_rate_after_output_gate": 0.0
+      },
+      "probes": {
+        "queries": 90,
+        "unauthorized_context_rate": 0.0,
+        "query_exposure_rate": 0.0,
+        "candidate_unauthorized_rate": 0.6666666666666666,
+        "target_recall": 0.0,
+        "mean_context_docs": 2.0,
+        "provenance_fidelity": 1.0,
+        "e4_failures": 0,
+        "foreign_target_reached_rate": 0.0
+      }
+    },
+    "prefilter": {
+      "authorized": {
+        "queries": 900,
+        "unauthorized_context_rate": 0.0,
+        "query_exposure_rate": 0.0,
+        "candidate_unauthorized_rate": 0.0,
+        "target_recall": 1.0,
+        "mean_context_docs": 2.0,
+        "provenance_fidelity": 1.0,
+        "e4_failures": 0,
+        "canary_echo_leak_rate": 0.0,
+        "canary_leak_rate_after_output_gate": 0.0
+      },
+      "probes": {
+        "queries": 90,
+        "unauthorized_context_rate": 0.0,
+        "query_exposure_rate": 0.0,
+        "candidate_unauthorized_rate": 0.0,
+        "target_recall": 0.0,
+        "mean_context_docs": 2.0,
+        "provenance_fidelity": 1.0,
+        "e4_failures": 0,
+        "foreign_target_reached_rate": 0.0
+      }
+    }
+  },
+  "e1_metadata_complete": true,
+  "e2_revocation": {
+    "present_before": {
+      "postfilter_topk": true,
+      "postfilter_overfetch5": true,
+      "prefilter": true
+    },
+    "present_after": {
+      "postfilter_topk": false,
+      "postfilter_overfetch5": false,
+      "prefilter": false
+    },
+    "passed": true
+  },
+  "timing_ms": {
+    "unfiltered": {
+      "median": 0.04887500000000378,
+      "p95": 0.05816699999999786,
+      "q1": 0.04870800000000841,
+      "q3": 0.049165999999989385,
+      "mean": 0.050556299555555455
+    },
+    "postfilter_topk": {
+      "median": 0.04974999999995955,
+      "p95": 0.059083999999987036,
+      "q1": 0.04958299999990867,
+      "q3": 0.0504162499999905,
+      "mean": 0.05155530733333334
+    },
+    "postfilter_overfetch5": {
+      "median": 0.052000000000052005,
+      "p95": 0.06133299999999675,
+      "q1": 0.05183300000000113,
+      "q3": 0.05229199999989831,
+      "mean": 0.053733642666666116
+    },
+    "prefilter": {
+      "median": 0.02254199999995876,
+      "p95": 0.0258770500001615,
+      "q1": 0.01850000000003238,
+      "q3": 0.0231669999999351,
+      "mean": 0.02128523622222057
+    }
+  }
+}

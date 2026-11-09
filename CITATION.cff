@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this harness, please cite the paper and this repository."
+title: "PAER evaluation harness: where to enforce authorization in enterprise retrieval-augmented generation"
+authors:
+  - family-names: "Krishnappa Kumar"
+    given-names: "Ashwin"
+    orcid: "https://orcid.org/0009-0007-7020-4227"
+version: "1.0.0"
+date-released: "2026-11-09"
+license: MIT
+repository-code: "https://github.com/ashwinkrkumar/paer-harness"

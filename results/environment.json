@@ -1,0 +1,15 @@
+{
+  "system": "Darwin",
+  "release": "27.0.0",
+  "machine": "arm64",
+  "cpu_count": 8,
+  "python": "3.9.6",
+  "processor": "arm",
+  "cpu_brand": "Apple M2",
+  "numpy_version": "2.0.2",
+  "scipy_version": "1.13.1",
+  "faiss_version": "1.13.0",
+  "qdrant_client_version": "1.16.1",
+  "wordllama_version": "0.4.0.post1",
+  "matplotlib_version": "3.9.4"
+}
